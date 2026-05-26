@@ -63,25 +63,55 @@ export default function RegisterComplaintPage() {
       <Header isAuthenticated={true} userName="Rahul Kumar Singh" unreadCount={2} />
 
       {/* Page Hero */}
-      <div className="relative overflow-hidden" style={{ background: "linear-gradient(135deg, #0A2A76 0%, #0d3494 50%, #1648b8 100%)", minHeight: 140 }}>
-        <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: "radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px)", backgroundSize: "22px 22px" }} />
-        {/* Building silhouette */}
-        <div className="absolute right-0 top-0 bottom-0 w-2/5 pointer-events-none opacity-[0.13]">
-          <svg viewBox="0 0 400 140" width="100%" height="100%" preserveAspectRatio="xMaxYMid meet" xmlns="http://www.w3.org/2000/svg">
-            <path d="M120,140 L120,50 Q160,15 200,10 Q240,5 280,10 Q320,15 360,50 L360,140Z" fill="white"/>
-            <ellipse cx="200" cy="10" rx="28" ry="14" fill="white"/>
-            <rect x="185" y="-6" width="30" height="18" fill="white" rx="2"/>
-            {[135,150,165,180,195,210,225,240,255,270,285,300,315,330,345].map((x,i)=>(
-              <rect key={i} x={x} y={50} width="6" height="90" fill="white" opacity="0.7"/>
-            ))}
-            <rect x="60" y="80" width="45" height="60" fill="white" rx="1"/>
-            <rect x="365" y="85" width="45" height="55" fill="white" rx="1"/>
-          </svg>
-        </div>
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-          <h1 className="text-[32px] font-bold text-white leading-tight">Register Your Complaint</h1>
-        </div>
-      </div>
+<div
+  className="relative overflow-hidden"
+  style={{
+    background: "linear-gradient(180deg, #12369F 0%, #0A2A76 100%)",
+    minHeight: 140,
+  }}
+>
+
+  
+
+  {/* 2. Vignette / gradient overlay */}
+  <div
+    className="absolute inset-0 pointer-events-none z-[2]"
+    style={{
+      background:
+        "radial-gradient(circle at center, rgba(18,54,159,0.0) 40%, rgba(10,42,118,0.65) 100%)",
+    }}
+  />
+  
+
+  {/* 2. Right side illustration (city image) */}
+  <div className="absolute right-0 top-0 bottom-0 w-1/2 pointer-events-none overflow-hidden z-[3]">
+    <div
+      className="w-full h-full"
+      style={{
+        backgroundImage: "url('/image20.png')",
+         backgroundSize: "45%",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "right center",
+        opacity: 0.25,
+      }}
+    />
+  </div>
+  {/* 3. Base texture (Rectangle137.png) */}
+  <div className="absolute inset-0 pointer-events-none z-[1]">
+    <img
+      src="/Rectangle137.png"
+      alt=""
+      className="w-full h-full object-cover opacity-100"
+    />
+  </div>
+
+  {/* 4. Content */}
+  <div className="relative z-[10] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 sm:pt-36 lg:pt-44 pb-10">
+    <h1 className="text-[32px] font-bold text-white leading-tight">
+      Register Your Complaint
+    </h1>
+  </div>
+</div>
 
       {/* Main content */}
       <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">

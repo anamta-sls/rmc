@@ -30,19 +30,12 @@ export default function UserSideCard() {
       </div>
 
       {/* Cityscape illustration */}
-      <div className="px-4 pb-4 opacity-[0.12]">
-        <svg viewBox="0 0 200 80" width="100%" xmlns="http://www.w3.org/2000/svg">
-          <rect x="2"  y="40" width="14" height="40" stroke="#0A2A76" strokeWidth="1.2" fill="none" rx="1"/>
-          <rect x="20" y="20" width="20" height="60" stroke="#0A2A76" strokeWidth="1.4" fill="none" rx="1"/>
-          <rect x="45" y="10" width="24" height="70" stroke="#0A2A76" strokeWidth="1.4" fill="none" rx="1"/>
-          <rect x="52" y="2"  width="10" height="78" stroke="#0A2A76" strokeWidth="1"   fill="none" rx="1"/>
-          <rect x="75" y="30" width="16" height="50" stroke="#0A2A76" strokeWidth="1"   fill="none" rx="1"/>
-          <rect x="96" y="14" width="22" height="66" stroke="#0A2A76" strokeWidth="1.4" fill="none" rx="1"/>
-          <rect x="124" y="32" width="16" height="48" stroke="#0A2A76" strokeWidth="1"  fill="none" rx="1"/>
-          <rect x="144" y="18" width="20" height="62" stroke="#0A2A76" strokeWidth="1.2" fill="none" rx="1"/>
-          <rect x="170" y="44" width="14" height="36" stroke="#0A2A76" strokeWidth="1"  fill="none" rx="1"/>
-          <rect x="188" y="28" width="10" height="52" stroke="#0A2A76" strokeWidth="1"  fill="none" rx="1"/>
-        </svg>
+      <div className="px-4 pb-4">
+        <img
+    src="/image 21.png"
+    alt="Cityscape illustration"
+    className="w-full h-auto"
+  />
       </div>
     </div>
   );

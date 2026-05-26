@@ -33,7 +33,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       outline: "border-2 border-[#0A2A76] text-[#0A2A76] hover:bg-[#EBF0FF] active:bg-[#D6E0FF] bg-transparent",
       ghost: "text-[#4A5568] hover:bg-[#F1F5F9] active:bg-[#E2E8F0] bg-transparent",
       destructive: "bg-[#E53E3E] text-white hover:bg-[#C53030] active:bg-[#9B2C2C] shadow-sm",
-      success: "bg-[#16A34A] text-white hover:bg-[#15803D] active:bg-[#166534] shadow-sm",
+      success: "bg-[#00B100] text-white hover:bg-[#15803D] active:bg-[#166534] shadow-sm",
     };
 
     const sizes = {

@@ -6,7 +6,7 @@
   --color-primary: #0A2A76;
   --color-primary-hover: #071E57;
   --color-primary-light: #EBF0FF;
-  --color-accent: #16A34A;
+  --color-accent: #00B100;
   --color-accent-hover: #15803D;
   --color-accent-light: #DCFCE7;
   --text-primary: #1A202C;
@@ -21,7 +21,7 @@
   --topbar-height: 56px;
 }
 
-@theme inline {
+:root[data-theme="inline"] {
   --color-bg-page: var(--bg-page);
   --color-bg-card: var(--bg-card);
   --color-primary: var(--color-primary);

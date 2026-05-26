@@ -23,7 +23,7 @@ export default function Footer() {
                 style={{ width:40,height:40,borderRadius:"50%",objectFit:"cover",border:"2px solid rgba(255,255,255,.2)",flexShrink:0 }}/>
               <div>
                 <span className="text-white font-bold text-[15px] block leading-tight">Apna Ranchi</span>
-                <span className="text-[#16A34A] text-[11px] font-medium block">Citizen App by RMC</span>
+                <span className="text-[#9EC6FF] text-[11px] font-medium block">Citizen App by RMC</span>
               </div>
             </div>
             <p className="text-[13px] leading-relaxed mb-4">
